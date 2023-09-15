@@ -31,17 +31,18 @@ Before you begin, ensure you have met the following requirements:
 ## Configuration
 ### MongoDB Setup:
 
-    Make sure you have MongoDB installed and running on your machine.
+Make sure you have MongoDB installed and running on your machine.
 
-    Create a MongoDB database for the application.
+Create a MongoDB database for the application.
 
-    Update the MongoDB connection string in app.js to point to your database:
+Update the MongoDB connection string in app.js to point to your database:
+    
     mongoose.connect('mongodb://localhost/your-database-name', { useNewUrlParser: true, useUnifiedTopology: true });
 
 ## Usage
 ### Start the application:
     npm start
 
-    Open your web browser and go to http://localhost:3000 to use the to-do list application.
+Open your web browser and go to http://localhost:3000 to use the to-do list application.
 
-    You can add, edit, complete, and delete tasks as needed.
+You can add, edit, complete, and delete tasks as needed.
